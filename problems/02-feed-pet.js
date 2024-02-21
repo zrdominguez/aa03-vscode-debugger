@@ -10,7 +10,8 @@ done
 function feedPet(name) {
   const foods = [];
   return (food) => {
-    return "Fed " + name + " " + foods.push(food) + ".";
+    foods.push(food)
+    return "Fed " + name + " " + foods.join(', ') + ".";
   }
 }
 
