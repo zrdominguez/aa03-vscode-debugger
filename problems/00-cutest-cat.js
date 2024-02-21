@@ -4,6 +4,9 @@ Fix the `cutestCat` function. Should return the cat with the highest `cuteness`
 rating.
 */
 
+//made changes
+
+
 function cutestCat(cats) {
   let cutest;
   let i = 0;
